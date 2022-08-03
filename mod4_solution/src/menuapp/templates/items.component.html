@@ -1,0 +1,11 @@
+<div class="rTable"> 
+  <div class="rTableRow" ng-if="$ctrl.items[0]">
+    <div class="rTableHead"><a>Name</a></div>
+    <div class="rTableHead"><a>Description</a></div>
+  </div>
+  <div class="rTableRow" ng-repeat="item in $ctrl.items">
+    <div class="rTableCell">{{ item.name }}</div>
+    <div class="rTableCell">{{ item.description }}</div>
+    </div>
+  </div>
+</div>
